@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "标签组管理器",
+  "description": "保存和管理浏览器标签组",
+  "version": "1.0",
+  "author": "Your Name",
+  "permissions": [
+    "tabs",
+    "storage",
+    "windows"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "browser_specific_settings": {
+    "edge": {
+      "browser_action_next_to_addressbar": true
+    }
+  }
+}
